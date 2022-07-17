@@ -1,10 +1,56 @@
 html,
 body {
+    cursor: none;
+  mix-blend-mode: initial;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-size: 400% 400%;
+    background-color: black;
+  /*background-image: linear-gradient(*/
+  /*        45deg,*/
+  /*        hsl(271deg 18% 68%) 0%,*/
+  /*        hsl(255deg 19% 68%) 4%,*/
+  /*        hsl(240deg 20% 69%) 9%,*/
+  /*        hsl(228deg 24% 67%) 13%,*/
+  /*        hsl(219deg 27% 66%) 17%,*/
+  /*        hsl(213deg 29% 64%) 22%,*/
+  /*        hsl(207deg 31% 62%) 26%,*/
+  /*        hsl(203deg 31% 60%) 30%,*/
+  /*        hsl(202deg 30% 59%) 35%,*/
+  /*        hsl(207deg 25% 59%) 39%,*/
+  /*        hsl(213deg 19% 59%) 43%,*/
+  /*        hsl(220deg 14% 58%) 48%,*/
+  /*        hsl(230deg 9% 57%) 52%,*/
+  /*        hsl(244deg 6% 56%) 57%,*/
+  /*        hsl(261deg 4% 54%) 61%,*/
+  /*        hsl(279deg 2% 52%) 65%,*/
+  /*        hsl(296deg 3% 52%) 70%,*/
+  /*        hsl(313deg 6% 54%) 74%,*/
+  /*        hsl(324deg 10% 56%) 78%,*/
+  /*        hsl(333deg 15% 58%) 83%,*/
+  /*        hsl(341deg 20% 60%) 87%,*/
+  /*        hsl(347deg 27% 63%) 91%,*/
+  /*        hsl(354deg 33% 65%) 96%,*/
+  /*        hsl(0deg 40% 67%) 100%*/
+  /*);*/
+  /*animation: gradient 30s ease infinite;*/
+  height: 100vh;
 }
+
+/*@keyframes gradient {*/
+/*  0% {*/
+/*    background-position: 0% 50%;*/
+/*  }*/
+/*  50% {*/
+/*    background-position: 100% 50%;*/
+/*  }*/
+/*  100% {*/
+/*    background-position: 0% 50%;*/
+/*  }*/
+/*}*/
+
 
 a {
   color: inherit;
@@ -13,4 +59,9 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
 }

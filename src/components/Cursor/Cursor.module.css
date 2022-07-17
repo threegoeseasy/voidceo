@@ -1,0 +1,61 @@
+.cursor {
+    width: 169px;
+    height: 169px;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: difference;
+    /*background-color: blue;*/
+    animation: float 10s ease-in-out infinite;
+    border-radius: 50%;
+    background-color: white;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px) translatex(0px);
+    }
+    25% {
+        transform: translatey(3px) translatex(-3px);
+    }
+    50% {
+        transform: translatey(-7px) translatex(+5px);
+    }
+    100% {
+        transform: translatey(0px) translatex(0px);
+    }
+}
+
+.shadow {
+    background: #b490b2;
+    width: 150px;
+    height: 40px;
+    top: 70%;
+    animation: expand 4s infinite;
+    position: absolute;
+    border-radius: 50%;
+}
+@keyframes expand {
+    0%,
+    100% {
+        transform: scale(0.5);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+}
+
+.cursor-motion-enter {
+    opacity: 0;
+}
+.cursor-motion-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+}
+.cursor-motion-exit {
+    opacity: 1;
+}
+.cursor-motion-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+}
